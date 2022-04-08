@@ -13,7 +13,16 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-AppClipPOC-AppClipPOCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AppClipPOC-AppClipPOCTests.a */; };
+		813A15325E2E98E27DAA6962 /* libPods-app-clip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17341DF82063B0B9D80576B3 /* libPods-app-clip.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9AC2305828008E5300596F0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC2305728008E5300596F0C /* AppDelegate.m */; };
+		9AC2305B28008E5300596F0C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC2305A28008E5300596F0C /* SceneDelegate.m */; };
+		9AC2305E28008E5300596F0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC2305D28008E5300596F0C /* ViewController.m */; };
+		9AC2306128008E5300596F0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC2305F28008E5300596F0C /* Main.storyboard */; };
+		9AC2306328008E5500596F0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC2306228008E5500596F0C /* Assets.xcassets */; };
+		9AC2306628008E5500596F0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC2306428008E5500596F0C /* LaunchScreen.storyboard */; };
+		9AC2306928008E5500596F0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC2306828008E5500596F0C /* main.m */; };
+		9AC2306D28008E5500596F0C /* app-clip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 9AC2305428008E5300596F0C /* app-clip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +33,28 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = AppClipPOC;
 		};
+		9AC2306B28008E5500596F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AC2305328008E5300596F0C;
+			remoteInfo = "app-clip";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9AC2307128008E5500596F0C /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				9AC2306D28008E5500596F0C /* app-clip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* AppClipPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppClipPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,13 +66,29 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AppClipPOC/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AppClipPOC/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AppClipPOC/main.m; sourceTree = "<group>"; };
+		17341DF82063B0B9D80576B3 /* libPods-app-clip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-app-clip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-AppClipPOC-AppClipPOCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppClipPOC-AppClipPOCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		210FB4FDB899409B88612341 /* Pods-app-clip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app-clip.release.xcconfig"; path = "Target Support Files/Pods-app-clip/Pods-app-clip.release.xcconfig"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-AppClipPOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppClipPOC.debug.xcconfig"; path = "Target Support Files/Pods-AppClipPOC/Pods-AppClipPOC.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-AppClipPOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppClipPOC.release.xcconfig"; path = "Target Support Files/Pods-AppClipPOC/Pods-AppClipPOC.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-AppClipPOC-AppClipPOCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppClipPOC-AppClipPOCTests.debug.xcconfig"; path = "Target Support Files/Pods-AppClipPOC-AppClipPOCTests/Pods-AppClipPOC-AppClipPOCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-AppClipPOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppClipPOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A1DA7D310C454A86843456 /* Pods-app-clip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app-clip.debug.xcconfig"; path = "Target Support Files/Pods-app-clip/Pods-app-clip.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AppClipPOC/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-AppClipPOC-AppClipPOCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppClipPOC-AppClipPOCTests.release.xcconfig"; path = "Target Support Files/Pods-AppClipPOC-AppClipPOCTests/Pods-AppClipPOC-AppClipPOCTests.release.xcconfig"; sourceTree = "<group>"; };
+		9AC2305428008E5300596F0C /* app-clip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-clip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC2305628008E5300596F0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AC2305728008E5300596F0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AC2305928008E5300596F0C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9AC2305A28008E5300596F0C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9AC2305C28008E5300596F0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9AC2305D28008E5300596F0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AC2306028008E5300596F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AC2306228008E5500596F0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AC2306528008E5500596F0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AC2306728008E5500596F0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC2306828008E5500596F0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AC2306A28008E5500596F0C /* app_clip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = app_clip.entitlements; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -60,6 +106,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-AppClipPOC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC2305128008E5300596F0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813A15325E2E98E27DAA6962 /* libPods-app-clip.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +156,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-AppClipPOC.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-AppClipPOC-AppClipPOCTests.a */,
+				17341DF82063B0B9D80576B3 /* libPods-app-clip.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,6 +174,7 @@
 				13B07FAE1A68108700A75B9A /* AppClipPOC */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* AppClipPOCTests */,
+				9AC2305528008E5300596F0C /* app-clip */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -133,8 +189,28 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* AppClipPOC.app */,
 				00E356EE1AD99517003FC87E /* AppClipPOCTests.xctest */,
+				9AC2305428008E5300596F0C /* app-clip.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9AC2305528008E5300596F0C /* app-clip */ = {
+			isa = PBXGroup;
+			children = (
+				9AC2305628008E5300596F0C /* AppDelegate.h */,
+				9AC2305728008E5300596F0C /* AppDelegate.m */,
+				9AC2305928008E5300596F0C /* SceneDelegate.h */,
+				9AC2305A28008E5300596F0C /* SceneDelegate.m */,
+				9AC2305C28008E5300596F0C /* ViewController.h */,
+				9AC2305D28008E5300596F0C /* ViewController.m */,
+				9AC2305F28008E5300596F0C /* Main.storyboard */,
+				9AC2306228008E5500596F0C /* Assets.xcassets */,
+				9AC2306428008E5500596F0C /* LaunchScreen.storyboard */,
+				9AC2306728008E5500596F0C /* Info.plist */,
+				9AC2306828008E5500596F0C /* main.m */,
+				9AC2306A28008E5500596F0C /* app_clip.entitlements */,
+			);
+			path = "app-clip";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -144,6 +220,8 @@
 				5709B34CF0A7D63546082F79 /* Pods-AppClipPOC.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-AppClipPOC-AppClipPOCTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-AppClipPOC-AppClipPOCTests.release.xcconfig */,
+				77A1DA7D310C454A86843456 /* Pods-app-clip.debug.xcconfig */,
+				210FB4FDB899409B88612341 /* Pods-app-clip.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -184,15 +262,36 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				9AC2307128008E5500596F0C /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9AC2306C28008E5500596F0C /* PBXTargetDependency */,
 			);
 			name = AppClipPOC;
 			productName = AppClipPOC;
 			productReference = 13B07F961A680F5B00A75B9A /* AppClipPOC.app */;
 			productType = "com.apple.product-type.application";
+		};
+		9AC2305328008E5300596F0C /* app-clip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC2306E28008E5500596F0C /* Build configuration list for PBXNativeTarget "app-clip" */;
+			buildPhases = (
+				5226A23352DC84E1988F8F91 /* [CP] Check Pods Manifest.lock */,
+				9AC2305028008E5300596F0C /* Sources */,
+				9AC2305128008E5300596F0C /* Frameworks */,
+				9AC2305228008E5300596F0C /* Resources */,
+				FA6C20AA42BF33362B5C7B60 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "app-clip";
+			productName = "app-clip";
+			productReference = 9AC2305428008E5300596F0C /* app-clip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -208,6 +307,9 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1120;
+					};
+					9AC2305328008E5300596F0C = {
+						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
@@ -226,6 +328,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* AppClipPOC */,
 				00E356ED1AD99517003FC87E /* AppClipPOCTests */,
+				9AC2305328008E5300596F0C /* app-clip */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +347,16 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC2305228008E5300596F0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC2306628008E5500596F0C /* LaunchScreen.storyboard in Resources */,
+				9AC2306328008E5500596F0C /* Assets.xcassets in Resources */,
+				9AC2306128008E5300596F0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +392,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppClipPOC/Pods-AppClipPOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5226A23352DC84E1988F8F91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-app-clip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -376,6 +511,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppClipPOC-AppClipPOCTests/Pods-AppClipPOC-AppClipPOCTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FA6C20AA42BF33362B5C7B60 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-app-clip/Pods-app-clip-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-app-clip/Pods-app-clip-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-app-clip/Pods-app-clip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,6 +567,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9AC2305028008E5300596F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC2305E28008E5300596F0C /* ViewController.m in Sources */,
+				9AC2305828008E5300596F0C /* AppDelegate.m in Sources */,
+				9AC2306928008E5500596F0C /* main.m in Sources */,
+				9AC2305B28008E5300596F0C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -423,7 +586,31 @@
 			target = 13B07F861A680F5B00A75B9A /* AppClipPOC */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
+		9AC2306C28008E5500596F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AC2305328008E5300596F0C /* app-clip */;
+			targetProxy = 9AC2306B28008E5500596F0C /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AC2305F28008E5300596F0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC2306028008E5300596F0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AC2306428008E5500596F0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC2306528008E5500596F0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
@@ -664,6 +851,88 @@
 			};
 			name = Release;
 		};
+		9AC2306F28008E5500596F0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A1DA7D310C454A86843456 /* Pods-app-clip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "app-clip/app_clip.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2R4H3ZGUH7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "app-clip/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AppClipPOC;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danrudolf.AppClipPOC.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AC2307028008E5500596F0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210FB4FDB899409B88612341 /* Pods-app-clip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "app-clip/app_clip.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2R4H3ZGUH7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "app-clip/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AppClipPOC;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danrudolf.AppClipPOC.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -690,6 +959,15 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC2306E28008E5500596F0C /* Build configuration list for PBXNativeTarget "app-clip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC2306F28008E5500596F0C /* Debug */,
+				9AC2307028008E5500596F0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
